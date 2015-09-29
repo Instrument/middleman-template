@@ -1,5 +1,5 @@
-# Middleman ES6
-A Middleman ES6 template project. Using the following open source tools:
+# Instrument Middleman Template
+A Middleman template project. Using the following open source tools:
 
 ## Front End
 - jQuery
