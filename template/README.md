@@ -10,8 +10,16 @@ A Middleman template project. Using the following open source tools:
 - AirBnB ESlint
 - Webpack (for JS module bundling)
 
-## Create new project
+## Setup
+`npm install`
+`bundle install`
 
-```
-middleman init -t Instrument/middleman-template .
-```
+## Local environment
+To spin up a local middleman server run:
+
+`bundle exec middleman server`
+
+## Builds
+To build static assets:
+
+`bundle exec rake build`
