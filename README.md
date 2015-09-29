@@ -13,5 +13,5 @@ A Middleman template project. Using the following open source tools:
 ## Create new project
 
 ```
-middleman init -t Instrument/middleman-template .
+middleman init -T Instrument/middleman-template .
 ```
