@@ -1,8 +1,7 @@
 activate :scss_lint
 
 activate :autoprefixer, browsers: [
-  'last 2 versions',
-  'ie >= 8'
+  'last 2 versions'
 ]
 
 activate :external_pipeline,
