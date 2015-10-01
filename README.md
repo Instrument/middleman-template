@@ -3,7 +3,6 @@
 A Middleman template project. Using the following open source tools:
 
 ## Front End
-- jQuery
 - SCSS
 - Autoprefixer
 - Babel
@@ -15,3 +14,11 @@ A Middleman template project. Using the following open source tools:
 ```
 middleman init -T Instrument/middleman-template .
 ```
+
+## Trouble shooting
+
+If you run into trouble, make sure you have middleman CLI installed globally:
+```
+bundle install middleman --pre
+```
+Also, be sure to have Ruby ^2.2.2
