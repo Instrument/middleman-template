@@ -47,10 +47,7 @@ configure :server do
 
       if changed_js.length > 0
         puts "== Linting Javascript"
-
-        changed_js.each do |file|
-          puts `./node_modules/eslint/bin/eslint.js #{file[:full_path]}`
-        end
+        puts `./node_modules/eslint/bin/eslint.js #{changed_js.map { |js| js[:full_path].to_s }.join(' ')}`
       end
     end
   end
