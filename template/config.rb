@@ -47,7 +47,7 @@ configure :server do
 
       if changed_js.length > 0
         puts "== Linting Javascript"
-        puts `./node_modules/eslint/bin/eslint.js #{changed_js.map { |js| js[:full_path].to_s }.join(' ')}`
+        puts `./node_modules/eslint/bin/eslint.js #{changed_js.map { |js| js[:full_path].relative_path_from(app.root_path).to_s }.join(' ')}`
       end
     end
   end
